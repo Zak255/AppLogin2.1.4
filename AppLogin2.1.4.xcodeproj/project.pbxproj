@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -52,6 +52,8 @@
 				244761E526B842F7007FD796 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
+			wrapsLines = 1;
 		};
 		244761E526B842F7007FD796 /* Products */ = {
 			isa = PBXGroup;
@@ -154,7 +156,7 @@
 				};
 			};
 			buildConfigurationList = 244761DF26B842F7007FD796 /* Build configuration list for PBXProject "AppLogin2.1.4" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -344,7 +346,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXN74639Q2;
-				INFOPLIST_FILE = AppLogin2.1.4/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppLogin2.1.4/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,7 +365,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXN74639Q2;
-				INFOPLIST_FILE = AppLogin2.1.4/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AppLogin2.1.4/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

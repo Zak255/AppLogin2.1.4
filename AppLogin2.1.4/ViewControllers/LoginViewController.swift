@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
     // MARK: - Private properties
     private let user = User.getUserData()
     
+    
     // MARK: Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let tabBarController = segue.destination as? UITabBarController else { return }

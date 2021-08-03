@@ -35,12 +35,11 @@
                                         <state key="normal" title="Log In"/>
                                         <connections>
                                             <action selector="logInPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="DnM-av-XO1"/>
-                                            <segue destination="yfw-tW-gxC" kind="presentation" id="COb-bU-hvI"/>
+                                            <segue destination="yfw-tW-gxC" kind="presentation" id="91B-cV-4ZO"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="rS4-k9-L9e" firstAttribute="top" secondItem="NwB-dW-ChV" secondAttribute="bottom" constant="50" id="CvM-Qo-Hg6"/>
                                     <constraint firstItem="VHB-RN-Uff" firstAttribute="leading" secondItem="TFL-YE-vVo" secondAttribute="leading" constant="111" id="Owh-x8-nJc"/>
                                     <constraint firstItem="NwB-dW-ChV" firstAttribute="leading" secondItem="TFL-YE-vVo" secondAttribute="leading" constant="20" id="RVX-nf-c4x"/>
                                     <constraint firstAttribute="trailing" secondItem="VHB-RN-Uff" secondAttribute="trailing" constant="111" id="gKx-Vx-CE6"/>
